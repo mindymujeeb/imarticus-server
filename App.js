@@ -3,6 +3,9 @@ dotenv.config({path:'./config.env'});
 require('./Controller/DBConnect');
 const express = require('express');
 const app = express();
+const cors = require('cors');
+
+app.use(cors);
 
 
 const Users = require('./Controller/Users');
