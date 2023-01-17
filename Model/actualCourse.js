@@ -16,6 +16,10 @@ const StatusSchema = new mongoose.Schema({
   content:{
     type:Array,
     require:true
+  },
+  time:{
+    type:Array,
+    required:true
   }
 });
 
