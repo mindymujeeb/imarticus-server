@@ -7,15 +7,16 @@ const cors = require('cors');
 
 app.use(cors());
 
-
 const Users = require('./Controller/Users');
 const Courses = require('./Controller/Courses');
 const ActualCourse = require('./Controller/ActualCourse');
+const Videos = require('./Controller/Videos');
 
 app.use(express.json());
 app.use(Users);
 app.use(Courses);
 app.use(ActualCourse);
+app.use(Videos);
 
 const PORT = process.env.PORT || 3000;
 
