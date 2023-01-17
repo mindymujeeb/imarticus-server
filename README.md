@@ -2,10 +2,10 @@
 # Imarticus Server
 
 Created RESTful APIs and fetched its data in the Frontend. APIs include
-- All Courses API
-- Individual Course API
-- Users API
-- Videos API
+- All Courses API           (/courses)
+- Individual Course API     (/actual-course)
+- Users API                 (/users)
+- Videos API                (/videos)
 
 ## Run Locally
 
